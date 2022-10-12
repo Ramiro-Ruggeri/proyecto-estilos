@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.container{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+}
+.logoTitulo {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+section.logoTitulo a h1 {
+    font-family: 'Cinzel', serif;   
+    background-color:rgb(135, 123, 123);
+    color: black;
+    display: block;
+    padding: 15px;
+    margin: 0px;
+    text-decoration: none;
+}
+.logoTitulo a:hover h1 {
+    background-color: white;
+    text-decoration: none;
+}
+.enviosGratis {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.menu ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+.menu ul li a{
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.menu {
+    background-color:#000;
+}
+.menu ul li a:hover {
+    background-color:rgb(135, 123, 123);
+    
+}
+.seccionMedia{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    /* justify== movimiento horizontal(eje X) */
+    /* align== movimiento vertical(eje Y) */
+
+
+}
+.seccionMedia section img {
+    height: 600px;
+    width: 560px;
+    margin: auto;
+    border-radius: 10px;
+}
+form {
+   width: 25%;
+   border: 1px solid #ccc;
+   margin: 20px; 
+   padding: 20px;
+}
+label {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+input, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+input:focus, textarea:focus {
+    border: 1px solid #1668C4;
+
+}
+input[type="submit"] {
+    margin-bottom: 0px;
+    background: #1668C4;
+    color: #FFF;
+    border: none;
+}
+input[type="submit"]:hover {
+    background: #4A8FF4;
+    cursor: pointer;
+    
+}
+.piePagina {
+    text-align: center;
+}
