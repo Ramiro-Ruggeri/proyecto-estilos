@@ -66,6 +66,13 @@ section.logoTitulo a h1 {
 }
 svg {
    float: right;
+   align-items: center;
+   margin-right: 15px;
+   margin-top: 15px;
+}
+.ig{
+    align-items: center;
+    margin-bottom: 5px;
 }
 .seccionMedia{
     display: flex;
