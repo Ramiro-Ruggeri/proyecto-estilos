@@ -20,12 +20,15 @@ header{
 }
 section.logoTitulo a h1 {
     font-family: 'Cinzel', serif;   
-    background-color:rgb(135, 123, 123);
-    color: black;
+    background-color: cornflowerblue;
+    color: white;
     display: block;
     padding: 15px;
     margin: 0px;
     text-decoration: none;
+}
+@media (min-width: ) {
+    
 }
 .logoTitulo a:hover h1 {
     background-color: white;
@@ -40,20 +43,23 @@ section.logoTitulo a h1 {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: ;
 
 }
 .menu ul li {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    justify-content: flex-start;
     text-decoration: none;
     padding: 10px 20px;
     
 }
 .menu ul li a{
     color: rgb(255, 255, 255);
-    display: block;
     padding: 10px;
     text-decoration: none;
-    box-sizing: border-box;
 
 }
 .menu {
