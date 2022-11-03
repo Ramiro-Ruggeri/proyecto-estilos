@@ -67,8 +67,9 @@ section.logoTitulo a h1 {
     margin-bottom: 45px;
 }
 .menu ul li a:hover {
-    background-color:rgb(135, 123, 123);
-    
+    /* background-color:rgb(135, 123, 123); */
+    background-image: linear-gradient(to left, rgb(184, 178, 178) , yellow);
+    padding: top;
 }
 svg {
    float: right;
